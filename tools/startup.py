@@ -29,7 +29,7 @@ print
 print "downloading the Enron dataset (this may take a while)"
 print "to check on progress, you can cd up one level, then execute <ls -lthr>"
 print "Enron dataset should be last item on the list, along with its current size"
-print "download will complete at about 423 MB"
+print "download will complete at about 1.7 GB"
 import urllib
 url = "https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tar.gz"
 urllib.urlretrieve(url, filename="../enron_mail_20150507.tar.gz") 
